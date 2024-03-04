@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV-TURBOTIDE | Sailing towards cleaner waters</title>
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            var navbar = document.querySelector('.navbar');
+            if (navbar.style.display === 'none' || navbar.style.display === '') {
+                navbar.style.display = 'flex';
+            } else {
+                navbar.style.display = 'none';
+            }
+        });
+    </script>
+
+
+    <!-- custom css -->
+
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- HEADER DESIGN  -->
+    <header class="header">
+        <a href="#" class="logo">Turbo <span>X</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#boat">The Boat</a>
+            <a href="#materials">Components</a>
+            <a href="#team">Our Team</a>
+            <a href="index1.html">Contact Us</a>
+        </nav>
+    </header>
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="RC Boat.jpg" alt="">
+        </div>
+        
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1>AV-Turbotide</h1>
+            <h3>From Polluted Tides to Crystal Shores: <span>Sailing towards cleaner water.</span></h3>
+
+            <p>
+                I am an Iot based RC boat for monitoring water pollution. I am designed to monitor key water quality parameters, including pH levels, dissolved oxygen, turbidity, temperature, and pollutant concentrations. The data collected by me can be used to detect pollution events early, identify pollution sources, and evaluate pollution control measures. I can also be used to address issues related to industrial and agricultural runoff. Involving local communities in water quality monitoring can help to raise awareness and empower individuals to participate in the preservation of their water resources. The data collected by me can also be used to inform policy formulation and regulation related to water quality.
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bx-envelope' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+
+            <a href="AV-TURBOTIDE PRO MAX PLUS.pdf" class="btn">Download PDF</a>
+        </div>
+        
+
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="boat">
+
+        <div class="about-vid">
+           
+            <video controls autoplay muted src="NIT Agartala Aerial View Drone Shots Of Tripura.mp4"></video>
+            <p><span>Exciting developments are underway! Our latest video or simulation is in the works and will be available soon. Stay tuned for an immersive experience. Thank you for your patience and interest.</span></p>
+
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">The <span>Boat</span></h2>
+            <!-- <h3>Design</h3> -->
+            <p>Introducing AV-TURBOTIDE, a revolutionary leap in aquatic technology! Beyond traditional RC boats, AV-TURBOTIDE employs five sophisticated sensors, functioning like a mini laboratory, meticulously mapping water health autonomously. Operated effortlessly through your phone or laptop via Wi-Fi, it hunts pollution with its Arduino Mega brain, eliminating the need for a joystick. Uncover watery secrets by scanning the QR code on our website. As a pioneer in water purification, AV-TURBOTIDE envisions an entire fleet of robo-cleaners in Phase 2. Using machine learning and mobile signals, they'll unveil hidden polluters, while solar-powered vessels clean water bodies meticulously. Join us in charting a course for crystal-clear rivers and oceans, as AV-TURBOTIDE emerges as the guardian of clean waters.</p>
+            <a href="AV-TURBOTIDE PRO MAX PLUS.pdf" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+
+
+    <!-- Materials used like arduiNO and other circuits  -->
+
+
+    <section class="materials-container" id="materials">
+        <div class="materials-content">
+            <h2>
+                <span>Components </span>
+            </h2>
+            <div class="materials-flex">
+                            <!-- card 1 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                ARDUINO MEGA
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="mega-r3.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                The Arduino Mega 2560 is a microcontroller board based on the ATmega2560. It is a popular choice for projects that require more I/O pins and memory than the Uno. The Mega 2560 has 54 digital I/O pins , 16 analog inputs, 4 UARTs, a USB connection, a power jack, an ICSP header, and a reset button.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                WIFI MODULE
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="WIFI.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                ESP8266 is a wi-fi module connecting your creations to the internet like a pro. Think smart homes, IoT projects, and remote control  all at a budget-friendly price. Arduino & Raspberry Pi ready, it's easy to use, making magic accessible to makers of all levels.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                BLDC MOTOR
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="bldc motor.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                The REES52 A2212 1400KV Brushless motor is a powerful and efficient motor for RC aircraft and multi copters. It is lightweight and compact, making it ideal for smaller drones. The 1400KV rating means that it can spin at up to 1400 revolutions per minute per volt, making it perfect for high-performance applications.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                SERVO MOTOR
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="servo motor.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                This lightweight servo motor packs a punch, rotating 180° with 1.8kg-cm torque at 6.6V. Perfect for robotics, RC models, it runs on 3-7.2V and plays nice with Arduino and Raspberry Pi. Its compact size (22.8 x 11.8 x 22.7mm) and budget-friendly price make it a popular choice for beginners.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 5 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                TEMPERATURE SENSOR
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="temperature.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                The temperature sensor devices detect and measure heat, converting it into an electrical signal. They come in various types, like thermocouples, thermistors, and RTDs, each suited for different temperature ranges and applications
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                pH SENSOR
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="ph sensor.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                The pH sensor measures hydrogen ion activity in liquids, revealing their acidic or alkaline nature. From chem labs to agriculture, it's a key tool for countless applications. Simply connect it to your Arduino or Raspberry Pi and watch the LED light up, guiding you to precise pH readings.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 7 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                TURBIDITY SENSOR
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="turbudity.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                A turbidity sensor measures the cloudiness or haziness of a liquid by detecting suspended particles. Commonly used in water quality monitoring, it ensures accurate assessments of water clarity for environmental, industrial, and scientific applications, promoting efficient resource management and pollution control.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card 8 -->
+                    <div class="materials-card">
+                        <div>
+                            <h3>
+                                TDS SENSOR
+                            </h3>
+                        </div>
+                        <div class="materials-img">
+                            <img src="TDS.jpg" alt="">
+                        </div>
+                        <div class="materials-text ">
+                            <p>
+                                A TDS (Total Dissolved Solids) sensor measures the concentration of dissolved substances in a liquid. It provides a quantitative assessment of water quality by detecting minerals, salts, and other impurities, helping ensure optimal conditions for various applications, including drinking water and industrial processes.
+                            </p>
+                        </div>
+                    </div>
+
+                
+            </div>
+            
+        </div>
+            
+            
+    </section>
+    <section class="team-container" id="team">
+        <div class="team-content">
+            <h2>OUR <span> TEAM</span></h2>
+            <div class="team-flex" >
+                <!-- card 1 -->
+                <div class="team-card">
+                    
+                        <h3>Udayan Banik</h3>
+                    
+                    <div class="team-img"><img src="Udayan_banik.jpg" alt=""></div>
+                    <div class="team-text">
+                        <p>In my role as Team Lead, I am Udayan Banik, a second-year Civil Engineering student. I provided essential assistance in circuit design, implementing my innovative idea. Additionally, I contributed significantly as a website developer and played a key role in Arduino coding and IoT applications.</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="team-card">
+                    
+                        <h3>Atabi Debnath</h3>
+                    
+                    <div class="team-img">
+                        <img src="Atabi.jpg" alt="">
+                    </div>
+                    <div class="team-text">
+                       <p>
+                        I am Atabi Debnath, 2nd year Civil engineering Undergrad at NIT Agartala.  I contributed diversely to the project by encompassing arduino circuit design and construction, resonating content writing for website, tranforming complex technical concepts through persuasive Powerpoint skills all along gaining practical experience in IoT applications.
+
+                       </p> 
+
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="team-card">
+                    
+                    
+                        <h3>Tushar Barman</h3>
+                    
+                    <div class="team-img">
+                        <img src="Tushar.jpg" alt="">
+                    </div>
+                    <div class="team-text">
+                        <p>
+                            I am Tushar Barman, a second-year Civil Engineering student (22UCE09) at NIT Agartala. I contribute to the AV-TurboTide project by crafting the boat and creating simulations in 3d. My key role in designing the boat enhances project dynamics with creativity and teamwork.</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="team-card">
+                    
+                        <h3>
+                            Ankita Debnath
+                        </h3>
+                    
+                    <div class="team-img"><img src="Ankita.jpg" alt=""></div>
+                    <div class="team-text">
+                        <p>
+                            I am Ankita Debnath, a second-year undergraduate student at the National Institute of Technology, Agartala. I played a pivotal role in crafting the circuit for the AV Turbotide project, enhancing my understanding of essential electronics and their significance. This experience was profoundly rewarding for me
+                        </p>
+                    </div>
+                </div>
+                <!-- card 5  -->
+                <div class="team-card">
+                    
+                        <h3>Mounadip Malakar</h3>
+                    
+                    <div class="team-img"><img src="mounadip.jpg" alt="">
+                    </div>
+                    <div class="team-text">
+                        <p>
+                            I am Mounadip Malakar, a dedicated 2nd-year Civil Engineering student. In the AV-TurboTide project, I excel as a thorough presenter and boat designer, gaining profound insights into collaborative teamwork, project management, and innovative problem-solving.
+                        </p>
+                    </div>
+                </div>
+                <!-- card 6  -->
+                <div class="team-card">
+                    
+                        <h3>Udayan Das</h3>
+                    
+                    <div class="team-img">
+                        <img src="Udayan_das.jpg" alt="">
+                    </div>
+                    <div class="team-text">
+                        <p>I'm Udayan Das, a second-year Civil Engineering student (22UCE026) at NIT Agartala. My role in the AV-TurboTide project involves budgeting and remote design. I've gained valuable experience in IoT applications, contributing to project dynamics with creativity and teamwork.
+                        </p>
+                    </div>
+                </div>
+                <!-- card 7  -->
+                <div class="team-card">
+                    
+                        <h3>Srija Chakraborty</h3>
+                    
+                    <div class="team-img">
+                        <img src="Srija.jpg" alt="">
+                    </div>
+                    <div class="team-text">
+                        <p>
+                            I am Srija Chakraborty, a second-year undergraduate student at the National Institute of Technology Agartala. I contributed to designing the boat for the AV Turbotide project, gaining valuable insights into essential boat structures and designs. This experience has been immensely rewarding for me.
+                        </p>
+                    </div>
+                </div>
+                <!-- card 8  -->
+                <div class="team-card">
+                    
+                        <h3>Ishita Datta</h3>
+                    
+                    <div class="team-img">
+                        <img src="ishita.jpg" alt="">
+                    </div>
+                    <div class="team-text">
+                        <p>
+                            I am Ishita Datta, a second-year Civil Engineering student at NIT Agartala. I designed a sensor-equipped boat for the 'AV-Turbotide' project, integrating engineering innovation with environmental conservation. Grateful for the learning opportunity. Thank you.
+                        </p>
+                            
+                        
+                    </div>
+                </div>
+                <!-- card 9 ------------------------------->
+                <div class="team-card">
+                    
+                    <h3>Subhradeep Roy</h3>
+                
+                <div class="team-img">
+                    <img src="Subhradeep sr..jpg" alt="">
+                </div>
+                <div class="team-text">
+                    <p>
+                        I am Subhradeep Roy, a third-year Civil Engineering student. As a guide and web developer, I contribute to the AV-Turbotide project. My passion lies in coding, creating, and transforming ideas into engaging digital experiences.
+                    </p>
+                        
+                    
+                </div>
+                <div>
+                    
+                </div>
+                </div>
+                <!-- card 10 ------------------------------->
+                <div class="team-card">
+                    
+                    <h3>Krisanu Nath</h3>
+                
+                <div class="team-img">
+                    <img src="Krishanu Nath.jpg" alt="">
+                </div>
+                <div class="team-text">
+                    <p>
+                        Myself, Krisanu Nath, Civil Engineering Undergrad at  National Institute of Technology, Agartala. As a technical guide, I contribute to this project. My passion lies in modern Civil Engineering Techniques, CAD software, IOT-ARDUINO, AI & ML .
+                    </p>
+                        
+                    
+                </div>
+                <div>
+                    
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="feature-main">
+        <div class="feature-container">
+            <div class="feature-content">
+                <div class="main-info">
+                    <h2>
+                        Our Competitive <span>Advantage</span>
+                    </h2>
+                    <p>Our boat comprises of different types of competitive advantages which are beneficial for not only our water bodies, it will create a diverse impact to our diversity. Some of the advantages are given bellow.</p>
+                    <div class="feature-grid">
+                        <!-- card 1 -->
+                        <div class="feature-card">
+                            <div class="icon-img">
+                                <img src="light-bulb.png" alt="">
+                            </div>
+                            <div class="feature-info">
+                                <div class="feature-title">
+                                    REAL TIME DATA ANAYSIS
+                                </div>
+                                <div class="feature-description">
+                                    Emphasizes the accessibility of water quality by colleting data through your website or mobile app, empowering authorities, researchers, and the public to make informed decisions and collaborate on solutions.
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <!-- card 2 -->
+                    <div class="feature-card">
+                        <div class="icon-img">
+                            <img src="light-bulb.png" alt="">
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                ECONOMIC
+                            </div>
+                            <div class="feature-description">
+                                AV-TURBOTIDE can contribute to economic development by creating jobs in boat maintenance, data analysis, education programs, and related industries.It's innovative technology, data-driven approach, and economic benefits can attract investors and government grants, providing access to capital for expanding operations and scaling impact.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3-->
+                    <div class="feature-card">
+                        <div class="icon-img">
+                            <img src="light-bulb.png" alt="">
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                ENVIRONMENTAL AND SUSTAINABILITY FOCUS
+                            </div>
+                            <div class="feature-description">
+                                AV-TURBOTIDE prioritizes eco-friendly technologies like bioremediation and considers wind power, minimizing harmful impacts on the environment.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="feature-card">
+                        <div class="icon-img">
+                            <img src="light-bulb.png" alt="">
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                OPEN SOURCE TECHNOLOGY
+                            </div>
+                            <div class="feature-description">
+                                Open-sourcing can transform our project from a local solution to a global movement. By empowering others to join the fight against water pollution, we can create a lasting impact and inspire countless organizations and communities to contribute to a cleaner future for our oceans and waterways.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 5-->
+                    <div class="feature-card">
+                        <div class="icon-img">
+                            <img src="light-bulb.png" alt="">
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                SCALABILITY AND ADAPTABILITY 
+                            </div>
+                            <div class="feature-description">
+                                The modular design of the boats enables adding or swapping components for expanding coverage, customizing cleanup methods, and future upgrades.This flexibility makes AV-TURBOTIDE suitable for various water bodies and pollution challenges, increasing its potential impact.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6 -->
+                    <div class="feature-card">
+                        <div class="icon-img">
+                            <img src="light-bulb.png" alt="">
+                        </div>
+                        <div class="feature-info">
+                            <div class="feature-title">
+                                IMPLEMENTATION OF ADVANCED TECHNOLOGY
+                            </div>
+                            <div class="feature-description">
+                                Implementation of the project to the next level by harnessing the power of AI and ML. Using AI and ML, optimising data collection ,analysing sensor data to maximize efficiency and resposiveness. 
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Tubo X | All Rights Reserved.</p>
+        </div>
+        
+    </footer>
+
+    <div class="footer-iconTop">
+        <a href="#home">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </div>
+    
+
+    <!-- CUSTOM JS -->
+    <script src="script.js" ></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h3>
+                GET IN TOUCH
+            </h3>
+            <input type="hidden" name="access_key" value="be1a714a-916d-4f9e-b480-da2c19dd6ad7">
+
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Email id" required>
+            <input type="text" id="phone" name="phone" placeholder="Phone no." required>
+            <textarea id="message" name="message" rows="4" placeholder="Send Us a Message?"></textarea>
+            <button type="submit" onclick="showSuccessMessage()">Send</button>
+        </form>
+        <div id="success-message" style="display:none;">
+            <p>Form submitted successfully! Thank you.</p>
+        </div>
+    </div>
+
+    <script>
+        function showSuccessMessage() {
+            document.getElementById("success-message").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
